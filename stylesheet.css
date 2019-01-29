@@ -1,0 +1,171 @@
+body{
+    color:#000;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+h1 h2 h3 h4 h5 {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Header */
+.site-logo {
+    text-align: center;
+}
+.site-logo_btn img {
+    display: inline-block;
+    line-height: 80px;
+    height: 75.66px;
+    width: 300px;
+}
+
+/* Navigation */
+.site-nav {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width:100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 150px;
+}
+.site-nav ul a {
+    color: #103851;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.site-nav ul a:hover {
+    color: #6f6f6f;
+}
+
+.scrolled-nav{
+    height: 70px;
+    box-shadow: 1px 1px 1px rgb(179, 179, 179);
+}
+.scrolled-nav ul a {
+    margin-top: 20px;
+    position: relative;
+    right: -270px;
+    color: #103851;
+    padding: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.scrolled-nav .site-logo{
+    float: left;
+    position: relative;
+    top: -20px;
+    margin-left: 50px;
+    width: 50px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+/* Carousel */
+
+#first-slide{
+    object-fit: cover;
+}
+
+#second-slide{
+    object-fit: cover;
+}
+#third-slide{
+    object-fit: cover;
+}
+#forth-slide{
+    object-fit: cover;
+}
+
+/* Main Content */
+
+.transition-text{
+    vertical-align: 50%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    padding-top: 7rem;
+    max-width: 60%;
+    margin-left: 20%;
+}
+.btn {
+    background-color: #103851;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #fff;
+    border: 1px solid #103851;
+    color: #103851;
+}
+.gallary {
+    height: 100%;
+    width:100%;
+    margin:0px;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform .2s;
+}
+.gallary:hover {
+    transform: scale(1.03);
+    overflow: hidden;
+}
+
+div .col {
+    padding: 0px;
+}
+div .col-md-6 {
+    padding: 0px;
+}
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 30;
+    background-color: rgba(186,201,216,0.9)
+  }
+  /* Container */
+.hideme
+{
+    opacity:0;
+}
+.menu-links {
+    background-color:  rgba(186,201,216);
+    text-align: center;
+}
+.menu-links ul li{
+    list-style-type: none;
+    display: inline;
+    letter-spacing: 4px;
+    padding: 15px 10px;
+    margin: .2rem 2.5rem;
+    padding-top: 30px;
+}
+.menu-links ul li a{
+    font-family: 'Barlow', sans-serif;
+    color:  #103851;
+    font-size: 19px;
+}
+.menu-links a:hover{
+    font-weight: bolder;
+    text-decoration: none;
+}
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.bakery-item{
+    text-align:center;
+}
