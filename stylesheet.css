@@ -33,7 +33,6 @@ h1 h2 h3 h4 h5 {
     position: fixed;
     top: 0;
     z-index: 9999;
-    height: 150px;
 }
 .site-nav ul a {
     color: #103851;
@@ -46,13 +45,10 @@ h1 h2 h3 h4 h5 {
 }
 
 .scrolled-nav{
-    height: 70px;
     box-shadow: 1px 1px 1px rgb(179, 179, 179);
 }
-.scrolled-nav ul a {
+.scrolled-nav ul li a {
     margin-top: 20px;
-    position: relative;
-    right: -270px;
     color: #103851;
     padding: 5px;
     transition-property: all;
@@ -192,7 +188,6 @@ footer {
     list-style-type: none;
     display: inline;
     letter-spacing: 4px;
-    padding: 15px 10px;
     margin: .2rem 2.5rem;
     padding-top: 30px;
 }
@@ -230,7 +225,7 @@ footer {
     letter-spacing: 7px;
 }
 
-/* Find Us */
+/* Hours */
 .hours {
     text-align: center;
 
@@ -267,4 +262,83 @@ footer {
     text-transform: uppercase;
     letter-spacing: 7px;
     padding: 10px;
+}
+/* Media Queries */
+/* Small devices (Phones, 576px and up) */
+@media (max-width: 576px) { 
+    .menu-links ul li{
+        list-style-type: none;
+        display: block;
+        letter-spacing: 4px;
+        padding-top: 10px;
+    }
+    .menu-links ul li a{
+        font-family: 'Barlow', sans-serif;
+        color:  #103851;
+        font-size: 1rem;
+    }
+    .about-us{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .team{
+        text-align: center;
+        padding: 1rem;
+    }
+    .positions{
+        text-align: center;
+        padding: 1rem;
+    }
+    .carousel{
+        margin-top:40%;
+    }
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .menu-links ul li{
+        list-style-type: none;
+        display: block;
+        letter-spacing: 4px;
+        padding-top: 10px;
+    }
+    .menu-links ul li a{
+        font-family: 'Barlow', sans-serif;
+        color:  #103851;
+        font-size: 1rem;
+    }
+    .about-us{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .team{
+        text-align: center;
+        padding: 1rem;
+    }
+    .positions{
+        text-align: center;
+        padding: 1rem;
+    }
+    .carousel{
+        margin-top:40%;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .carousel{
+        margin-top:0%;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .carousel{
+        margin-top:0%;
+    }
+
 }

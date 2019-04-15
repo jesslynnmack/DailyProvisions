@@ -61,7 +61,9 @@ $("#drinks-btn").click(function(){
 $(window).scroll(function(){
     if($(document).scrollTop() > 50){
         $('nav').addClass('scrolled-nav');
+        $('.scrolled-nav ul').addClass('float-right')
     }else {
+      $('.scrolled-nav ul').removeClass('float-right');
         $('nav').removeClass('scrolled-nav');
     };
 });
